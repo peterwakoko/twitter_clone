@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    position: sticky;
+    top: 7px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+section{
+    /* background-color: blue; */
+    height: 100vh;
+    width: 24%;
+    padding-left: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+
+section button{
+    color: #fff;
+    background: #1d9bf0;
+    font-size: 15px;
+    border-radius: 9999px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px 0px;
+    width: 220px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.user-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    left: 70px;
+    width: 190px;
+    height: 60px;
+}
+
+.user-container:hover{
+    background-color: #dee4e4;
+    border-radius: 9999px;
+    cursor: default;
+}
+.username{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-image: url(./images/peter.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.avatar2{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-image: url(./images/peter.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section button:hover{
+background-color: #1a8cd8;
+}
+.fa-twitter{
+    color:#1d9bf0;
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+ul i{
+    margin-right: 20px;
+}
+
+ul li{
+    margin: 5px;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: #dee4e4;
+    border-radius: 9999px;
+    cursor: default;
+    padding: 10px;
+    width: 80%;
+}
+main{
+    height: 100vh;
+    width: 46%;
+    border-left: 0.1px solid rgb(232, 232, 232);
+    border-right: 0.1px solid rgb(232, 232, 232);
+
+}
+
+main header{
+display: flex; 
+justify-content: space-between; 
+align-items: center;
+padding: 20px;
+}
+
+.home{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #0f1419;
+    opacity: 85.0%;
+    font-weight: 600;
+}
+
+aside{
+    height: 100vh;
+    width: 30%;
+    border-left: 0.1px thin #ccc;
+    overflow: scroll;
+}
+
+aside header{
+display: flex; 
+justify-content: center; 
+align-items: center;
+background-color: #f7f9f9;
+border-radius: 9999px;
+height: 43px;
+margin-top: 6px;
+}
+
+.question{
+    /* border: 1px solid red; */
+    /* width: 50%; */
+    margin-left: 70px;
+    margin-top: -40px;
+}
+
+.question input{
+    border: none;
+    outline: none;
+}
+
+.question input[type="text"]{
+    font-size: 20px;
+    /* margin-left: 70px; */
+}
+
+aside{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+aside input{
+    border-radius: 9999px;
+    padding: 7px;
+    background-color: #f7f9f9;
+    border: none;
+    outline: none;
+}
+
+aside input[type="text"]{
+    font-size: 16px;
+}
+
+.trends{
+    background-color: #f7f9f9;
+    width: 350px;
+    height: 600px;
+    border-radius: 14px;
+    margin-top: 16px;
+}
+
+.follow{
+    /* border: 1px solid red; */
+    background-color: #f7f9f9;
+    width: 350px;
+    height: 600px;
+    border-radius: 14px;
+    margin-top: 16px;
+}
+
+.fa-magnifying-glass{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #536471;
+    font-size: 19px;
+}
+
+.ug_trends{
+    /* border: 1px solid red; */
+    margin: 30px;
+    padding: 10px;
+    color: #536471;
+    font-size: 13px;
+}
+
+.avatar3{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-image: url(./images/peter.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.trend-bold{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #0f1419;
+}
+
